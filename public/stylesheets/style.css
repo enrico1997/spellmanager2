@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: url("../images/book.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+@font-face {
+  font-family: HARRYP__;
+  src: url(HARRYP__.TTF);
+}
+
+h1 {
+  font-family: HARRYP__;
+  padding-bottom: 20px;
+  font-size: 50px;
+  /*line-height: 49px;*/
+  /*border-bottom: 3px solid grey;*/
+  /*background-color: purple;*/
+  /*color: white;*/
+}
+
+p{
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-size:30px;	
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#deleteButton {
+    background-color: #FF0000; /* Red */
+}
+
+footer {
+  font-family: HARRYP__;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
