@@ -56,10 +56,12 @@ $(document).ready(function() {
   // This function handles showing the input box for a user to edit a todo
   function editTodo() {
     var currentTodo = $(this).data("todo");
-    $(this).children().hide();
-    $(this).children("input.edit").val(currentTodo.spell_name);
-    $(this).children("input.edit").show();
-    $(this).children("input.edit").focus();
+    if (currentTodo) {
+      $(this).children().hide();
+      $(this).children("input.edit").val(currentTodo.spell_name);
+      $(this).children("input.edit").show();
+      $(this).children("input.edit").focus();
+    }
   }
 
   // Toggles "cast" status
